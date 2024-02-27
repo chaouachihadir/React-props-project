@@ -1,0 +1,74 @@
+.player-card {
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.player-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.player-info {
+  margin-top: 20px;
+}
+
+.player-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.player-details {
+  margin-top: 10px;
+}
+
+.player-detail {
+  margin-bottom: 5px;
+}
+
+.player-detail-label {
+  font-weight: bold;
+}
+
+.player-detail-value {
+  margin-left: 5px;
+}
+
+.player-cards-container {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-card {
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(55, 113, 158, 0.97);
+}
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  background-color: blueviolet;
+  background-size: cover;
+  background-position: center;
+  min-height: 70vh;
+  background-image: url("images\ \(3\).jpg");
+}
+.card-text {
+  color: white;
+}
+.title {
+  color: chocolate;
+}
